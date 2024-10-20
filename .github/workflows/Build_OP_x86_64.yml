@@ -64,7 +64,7 @@ jobs:
     - name: Import external feeds - kucat
       working-directory: ./openwrt
       run: |
-        git clone https://github.com/sirpdboy/luci-app-advancedplus
+        git clone https://github.com/sirpdboy/luci-theme-kucat
 
     - name: Configuration Customization - Build_x86_64
       env:
